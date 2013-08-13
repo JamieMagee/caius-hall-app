@@ -1,43 +1,3 @@
-# IntelliJ IDEA
-
-*.iml
-*.ipr
-*.iws
-.idea/
-
-
-# Eclipse
-
-*.pydevproject
-.project
-.metadata
-bin/**
-tmp/**
-tmp/**/*
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.classpath
-.settings/
-.loadpath
-
-# External tool builders
-.externalToolBuilders/
-
-# Locally stored "Eclipse launch configurations"
-*.launch
-
-# CDT-specific
-.cproject
-
-# PDT-specific
-.buildpath
-
-
-# Android
-
 # built application files
 *.apk
 *.ap_
@@ -51,12 +11,24 @@ local.properties
 # generated files
 bin/
 gen/
-out/
 
 # Local configuration file (sdk path, etc)
 local.properties
-res/raw/version.properties
 
 # Eclipse project files
 .classpath
 .project
+
+# Android Studio
+.idea/
+.gradle
+/*/local.properties
+/*/out
+/*/build
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
